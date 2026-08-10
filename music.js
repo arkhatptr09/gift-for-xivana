@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const song = {
     title: 'Beautiful (feat. Camila Cabello)',
-    src: 'assets/music/Beautiful (feat. Camila Cabello).mp3'
+    src: 'Beautiful (feat. Camila Cabello).mp3'
   };
 
   audio.src = song.src;
