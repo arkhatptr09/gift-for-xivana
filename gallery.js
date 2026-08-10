@@ -6,23 +6,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const photos = [
     {
-      src: 'assets/music/photo-02.jfif',
+      src: 'photo-02.jfif',
       caption: 'our little moment'
     },
     {
-      src: 'assets/music/photo-03.jfif',
+      src: 'photo-03.jfif',
       caption: 'one of my favorites'
     },
     {
-      src: 'assets/music/photo-04.jfif',
+      src: 'photo-04.jfif',
       caption: 'just us'
     },
     {
-      src: 'assets/music/photo-05.jfif',
+      src: 'photo-05.jfif',
       caption: 'a memory worth keeping'
     },
     {
-      src: 'assets/music/photo-06.jfif',
+      src: 'photo-06.jfif',
       caption: 'another little moment'
     }
   ];
