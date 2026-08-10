@@ -3197,3 +3197,260 @@ dialog h2 {
   }
 
 }
+/* =====================================================
+   MUSIC PLAYER — MOBILE FIX
+===================================================== */
+
+@media (max-width: 768px) {
+
+  /* SECTION MUSIC */
+  .music {
+    width: 100%;
+    min-height: auto;
+    padding: 90px 20px 70px;
+
+    display: flex;
+    flex-direction: column;
+
+    /* jangan pakai layout desktop */
+    align-items: center;
+    justify-content: center;
+
+    gap: 35px;
+  }
+
+
+  /* TEXT MUSIC */
+  .music > div:first-child {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+
+    margin: 0 auto;
+  }
+
+  .music .section-kicker {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+
+  .music h2 {
+    font-size: clamp(38px, 11vw, 52px);
+    line-height: .95;
+
+    margin: 0 0 20px;
+  }
+
+  .music h2 em {
+    display: block;
+  }
+
+  .music > div:first-child > p:not(.section-kicker) {
+    font-size: 14px;
+    line-height: 1.7;
+
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+
+  /* =================================================
+     TURNTABLE
+  ================================================= */
+
+  .turntable {
+    position: relative;
+
+    width: min(100%, 360px);
+    height: 430px;
+
+    margin: 5px auto 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+  }
+
+
+  /* =================================================
+     RECORD
+  ================================================= */
+
+  .record {
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    top: 35px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    margin: 0;
+
+    border-radius: 50%;
+  }
+
+  .record.playing {
+    animation: recordSpin 4s linear infinite;
+  }
+
+
+  /* =================================================
+     NEEDLE
+  ================================================= */
+
+  .needle {
+    position: absolute;
+
+    width: 115px;
+    height: 5px;
+
+    top: 72px;
+    right: 38px;
+
+    transform: rotate(-38deg);
+    transform-origin: right center;
+
+    z-index: 5;
+  }
+
+
+  /* tombol play */
+  #musicPlay {
+    position: absolute;
+
+    top: 72px;
+    right: 65px;
+
+    width: 55px;
+    height: 55px;
+
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+  }
+
+
+  /* =================================================
+     TRACK INFORMATION
+  ================================================= */
+
+  .track {
+    position: absolute;
+
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .track b {
+    display: block;
+
+    width: 100%;
+
+    font-size: 14px;
+    line-height: 1.4;
+
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* =================================================
+     PROGRESS BAR
+  ================================================= */
+
+  #progress {
+    width: 100%;
+    height: 5px;
+
+    margin: 0;
+
+    cursor: pointer;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL PHONE
+   480px ke bawah
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .music {
+    padding: 80px 16px 60px;
+    gap: 30px;
+  }
+
+  .music h2 {
+    font-size: 39px;
+  }
+
+  .music > div:first-child > p:not(.section-kicker) {
+    font-size: 13px;
+  }
+
+
+  .turntable {
+    width: 100%;
+    max-width: 340px;
+    height: 390px;
+
+    border-radius: 20px;
+  }
+
+
+  .record {
+    width: 195px;
+    height: 195px;
+
+    top: 35px;
+  }
+
+
+  .needle {
+    width: 100px;
+
+    top: 65px;
+    right: 28px;
+  }
+
+
+  #musicPlay {
+    width: 50px;
+    height: 50px;
+
+    top: 65px;
+    right: 50px;
+  }
+
+
+  .track {
+    left: 18px;
+    right: 18px;
+    bottom: 25px;
+  }
+
+}
