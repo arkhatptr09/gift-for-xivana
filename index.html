@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Our Little Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grain"></div>
+  <canvas id="atmosphere" aria-hidden="true"></canvas>
+
+  <div id="loader" class="loader">
+    <div class="loader__heart">♥</div>
+    <p>Creating Our Little Universe...</p>
+    <span></span>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#home">Dear, <i>Xivana</i></a>
+    <nav>
+      <a href="#story">Our story</a>
+      <a href="#memories">Memories</a>
+      <a href="#letter">Letter</a>
+    </nav>
+    <button class="sound-toggle" aria-label="Toggle ambient sound">♪</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow">On this little website, I present this</div>
+      <h1>For the most beautiful person <em>in my universe.</em></h1>
+      <p>There are a million ways to say "I love you." and this is one of them. a small website, but it carries a heart full of love, memories, and everything I could never fit into a single sentence.</p>
+      <button class="button magnetic" data-scroll="#story">Begin our journey <b>↓</b></button>
+      <div class="hero-orbit">
+        <div class="moon"></div>
+        <div class="cat cat--hero" data-cat>
+          <span class="ear ear-l"></span>
+          <span class="ear ear-r"></span>
+          <span class="face"><i></i><i></i><b></b></span>
+          <span class="tail"></span>
+          <span class="rose">✦</span>
+        </div>
+        <small>click kucingnya 7 kali </small>
+      </div>
+    </section>
+
+    <section class="intro section" id="story">
+      <p class="section-kicker">Chapter I — the beginning</p>
+      <h2>Some people feel like <em>coming home.</em></h2>
+      <p class="lede">Scroll slowly. Every little scene below is a place to add the moments that turned into your favorite memories.</p>
+    </section>
+
+    <section class="story-grid" aria-label="Our story">
+      <article class="story-card tone-1">
+        <span></span>
+        <div class="cat cat--sit">
+          <span class="ear ear-l"></span>
+          <span class="ear ear-r"></span>
+          <span class="face"><i></i><i></i><b></b></span>
+        </div>
+        <h3>The first spark</h3>
+        <p>awal kita kenal tuh lucu ya. aku bahkan udah nggak inget persis gimana awalnya, tapi yang paling aku inget tuh waktu kamu curhat soal mantan kamu wkwk.
+
+nggak nyangka aja, dari obrolan yang awalnya sesimpel itu, sekarang kita bisa sejauh ini. dulu cuma saling cerita, sekarang malah jadi tempat pulang satu sama lain.
+
+kadang kalau diinget lagi rasanya lucu. hal-hal yang dulu kelihatan biasa aja, ternyata malah jadi awal dari cerita kita.
+</p>
+      </article>
+      <article class="story-card tone-2">
+        <span></span>
+        <div class="story-illustration">✦</div>
+        <h3>The small things</h3>
+        <p>tau ga? sebenernya waktu awal temenan sama kamu aku udah ngincer kamu loh wkwk. cuma waktu itu ternyata kamu masih ada pacar, jadi aku milih buat mundur dulu.
+
+ya walaupun sempet kepikiran, tapi aku ngerasa nggak ada gunanya juga maksa. jadi aku cuma nikmatin aja jadi temen kamu, sambil mikir yaudah, mungkin emang bukan waktunya.
+
+eh, ternyata hidup punya jalan ceritanya sendiri ya. sekarang malah kita yang jalanin cerita ini bareng.
+</p>
+      </article>
+      <article class="story-card tone-3">
+        <span></span>
+        <div class="cat cat--sleep">
+          <span class="ear ear-l"></span>
+          <span class="ear ear-r"></span>
+          <span class="face"><i></i><i></i><b></b></span>
+        </div>
+        <h3>Cute Moments</h3>
+        <p>yang bagian ini lucu bgt sih wkwk. momen di mana kamu berkali-kali ngechat aku cuma buat ngabarin kalau akun kamu mokad lagi.
+
+
+
+setiap kali ada akun yang kena, pasti nggak lama kemudian kamu muncul lagi ngechat aku buat ngasih tau. lucunya, setiap kejadian itu rasanya udah kayak rutinitas. aku bahkan jadi langsung tau, "oh... paling akun dia mokad lagi." 
+
+
+
+dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget lagi, ternyata momen-momen kecil kayak gitu yang bikin cerita kita pelan-pelan bertambah. hal-hal yang kelihatannya sepele, ternyata sekarang malah jadi kenangan yang bikin senyum sendiri setiap kali keinget.
+</p>
+      </article>
+    </section>
+
+    <section class="story-marquee">
+      <span>Deowebz</span>
+      <span>Deowebz</span>
+      <span>Deowebz</span>
+      <span>Deowebz</span>
+    </section>
+
+    <section class="chapters section">
+      <div>
+        <p class="section-kicker">And then there was more</p>
+        <h2>A collection of <em>little forever.</em></h2>
+      </div>
+      <ol>
+        <li><b>08</b> STORY_TEXT_08</li>
+        <li><b>09</b> STORY_TEXT_09</li>
+        <li><b>10</b> STORY_TEXT_10</li>
+      </ol>
+    </section>
+
+    <section class="game section" id="game">
+      <div>
+        <p class="section-kicker">A tiny detour</p>
+        <h2>Help the cat gather <em>beautiful things.</em></h2>
+        <p>Catch roses, stars, hearts and ribbons. Avoid the storm for 35 seconds.</p>
+        <button id="gameStart" class="button">Play the little game</button>
+      </div>
+      <div class="game-stage" id="gameStage">
+        <div class="game-hud">
+          <span id="gameScore">00</span>
+          <span id="gameTime">35</span>
+        </div>
+        <div class="game-cat">🐈</div>
+        <div class="game-message">Ready when you are.</div>
+      </div>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <p class="section-kicker">Chapter II — a note for you</p>
+      <h2>There are things I only know how to say <em>in a letter.</em></h2>
+      <div class="envelope-wrap">
+        <button class="envelope" id="envelope" aria-label="Open the love letter">
+          <span class="seal">♥</span>
+          <span class="flap"></span>
+        </button>
+        <article class="letter-paper" id="letterPaper">
+          <p class="letter-date">Always, today</p>
+          <h3>LETTER_TITLE</h3>
+          <p>LETTER_TEXT</p>
+          <p>LETTER_TEXT_02</p>
+          <p>LETTER_TEXT_03</p>
+          <p class="signature">With all my heart, <br>yours.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="memories section" id="memories">
+      <p class="section-kicker">Chapter III — the proof</p>
+      <h2>The moments I want to <em>keep reliving.</em></h2>
+      <div class="photo hero-photo">PHOTO_01 <span>the one that started it all</span></div>
+      <div class="polaroids" id="polaroids"></div>
+    </section>
+
+    <section class="book-section section">
+      <p class="section-kicker">Our love book</p>
+      <h2>Twenty pages, and I’d still <em>keep writing.</em></h2>
+      <div class="book" id="book">
+        <button class="book-arrow prev" aria-label="Previous page">←</button>
+        <div class="book-page" id="bookPage">
+          <span>01 / 20</span>
+          <h3>PAGE_01_TITLE</h3>
+          <p>PAGE_01_TEXT</p>
+        </div>
+        <button class="book-arrow next" aria-label="Next page">→</button>
+      </div>
+    </section>
+
+    <section class="counter section">
+      <p class="section-kicker">Since the beginning</p>
+      <h2>A very good reason to <em>celebrate time.</em></h2>
+      <div class="counter-grid" id="counter">
+        <div><b>00</b><span>Years</span></div>
+        <div><b>00</b><span>Months</span></div>
+        <div><b>00</b><span>Days</span></div>
+        <div><b>00</b><span>Hours</span></div>
+        <div><b>00</b><span>Minutes</span></div>
+        <div><b>00</b><span>Seconds</span></div>
+      </div>
+      <label class="date-control">Our start date <input type="date" id="startDate" value="2024-01-01"></label>
+    </section>
+
+    <section class="timeline section">
+      <p class="section-kicker">The golden thread</p>
+      <h2>Everywhere I’d choose <em>you again.</em></h2>
+      <div class="timeline-list" id="timeline"></div>
+    </section>
+
+    <section class="music section" id="music">
+      <div>
+        <p class="section-kicker">For our soundtrack</p>
+        <h2>Press play. Let the room <em>turn slowly.</em></h2>
+        <p>Replace the sample tracks in <code>assets/music/</code> with your own songs.</p>
+      </div>
+      <div class="turntable">
+        <div class="record" id="record"><span></span></div>
+        <i class="needle"></i>
+        <button id="musicPlay" aria-label="Play playlist">▶</button>
+        <div class="track">
+          <b id="trackTitle">Our first slow dance</b>
+          <input id="progress" type="range" value="24" aria-label="Track progress">
+        </div>
+      </div>
+    </section>
+
+    <audio id="audio" preload="none"></audio>
+
+    <section class="final" id="final">
+      <div class="cat cat--final">
+        <span class="ear ear-l"></span>
+        <span class="ear ear-r"></span>
+        <span class="face"><i></i><i></i><b></b></span>
+        <span class="tail"></span>
+        <span class="rose">✦</span>
+      </div>
+      <p class="section-kicker">The end is only a beginning</p>
+      <h2>No matter how many tomorrows come, <em>I’ll always choose you.</em></h2>
+      <button id="finalHeart" class="final-heart" aria-label="Reveal ending">♥</button>
+      <p class="continued" id="continued">To Be Continued...</p>
+    </section>
+  </main>
+
+  <dialog id="secret">
+    <button class="close-secret" aria-label="Close">×</button>
+    <span>✦</span>
+    <h2>You found our secret.</h2>
+    <p>SECRET_MESSAGE_PLACEHOLDER</p>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="animations.js"></script>
+  <script src="gallery.js"></script>
+  <script src="game.js"></script>
+  <script src="music.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
