@@ -2764,3 +2764,436 @@ dialog h2 {
   }
 
 }
+
+/* =====================================================
+   MOBILE RESPONSIVE
+===================================================== */
+
+@media (max-width: 768px) {
+
+  /* ---------- GLOBAL ---------- */
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  main {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  /* ---------- NAVBAR ---------- */
+
+  .nav {
+    padding: 18px 20px;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+
+  .nav nav {
+    display: none;
+  }
+
+  .sound-toggle {
+    width: 38px;
+    height: 38px;
+  }
+
+
+  /* ---------- HERO ---------- */
+
+  .hero {
+    min-height: 100svh;
+    padding: 100px 24px 50px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 12vw, 64px);
+    line-height: .95;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 100%;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    letter-spacing: .15em;
+  }
+
+  .button {
+    padding: 13px 20px;
+    font-size: 13px;
+  }
+
+
+  /* ---------- ORBIT CAT ---------- */
+
+  .hero-orbit {
+    width: 260px;
+    height: 260px;
+    margin: 40px auto 0;
+  }
+
+  .hero-orbit small {
+    font-size: 10px;
+    bottom: -30px;
+  }
+
+
+  /* ---------- SECTION ---------- */
+
+  .section {
+    padding: 80px 20px;
+  }
+
+  .section h2,
+  .intro h2 {
+    font-size: clamp(34px, 10vw, 52px);
+    line-height: 1;
+  }
+
+  .lede {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* ---------- STORY ---------- */
+
+  .story-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 0 20px;
+  }
+
+  .story-card {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+
+  .story-card h3 {
+    font-size: 24px;
+  }
+
+  .story-card p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+
+  /* ---------- MARQUEE ---------- */
+
+  .story-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .story-marquee span {
+    font-size: 45px;
+  }
+
+
+  /* ---------- MUSIC ---------- */
+
+  .music {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .turntable {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+  }
+
+  .record {
+    width: 190px;
+    height: 190px;
+    margin: auto;
+  }
+
+  .track {
+    width: 100%;
+  }
+
+  .track b {
+    font-size: 14px;
+  }
+
+  #progress {
+    width: 100%;
+  }
+
+
+  /* ---------- GAME ---------- */
+
+  .game {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .game-stage {
+    width: 100%;
+    height: 430px;
+    touch-action: none;
+  }
+
+  .game-cat {
+    width: 55px;
+    height: 55px;
+    font-size: 42px;
+    touch-action: none;
+  }
+
+  .game-item {
+    font-size: 25px;
+  }
+
+  .game-hud {
+    font-size: 14px;
+  }
+
+
+  /* ---------- LETTER ---------- */
+
+  .letter-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .envelope-wrap {
+    width: 100%;
+  }
+
+  .letter-paper {
+    width: min(90vw, 420px);
+    padding: 28px 22px;
+  }
+
+  .letter-paper p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+
+  /* ---------- MEMORIES ---------- */
+
+  .memories {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-photo {
+    width: 100%;
+    height: 230px;
+  }
+
+  .polaroids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 30px;
+  }
+
+  .polaroid {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .polaroid .photo {
+    width: 100%;
+    height: 150px;
+  }
+
+  .polaroid p {
+    font-size: 12px;
+  }
+
+
+  /* ---------- STARLIGHT ---------- */
+
+  .starlight-section {
+    min-height: 100svh;
+    padding: 80px 20px;
+  }
+
+  .starlight-copy {
+    text-align: center;
+  }
+
+  .constellation {
+    transform: scale(.75);
+  }
+
+  .wish-button {
+    width: 70px;
+    height: 70px;
+  }
+
+
+  /* ---------- COUNTER ---------- */
+
+  .counter {
+    padding: 80px 20px;
+  }
+
+  .counter-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .counter-grid div {
+    padding: 20px 10px;
+  }
+
+  .counter-grid b {
+    font-size: 30px;
+  }
+
+  .counter-grid span {
+    font-size: 10px;
+  }
+
+  .date-control {
+    font-size: 12px;
+  }
+
+
+  /* ---------- PROMISE ---------- */
+
+  .promise-section {
+    min-height: 80svh;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .promise-orbit {
+    transform: scale(.75);
+    margin-bottom: 30px;
+  }
+
+  .promise-text {
+    font-size: 14px;
+  }
+
+
+  /* ---------- FINAL ---------- */
+
+  .final {
+    min-height: 100svh;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .final h2 {
+    font-size: clamp(36px, 10vw, 52px);
+    line-height: 1;
+  }
+
+
+  /* =================================================
+     ANNIVERSARY SURPRISE
+  ================================================= */
+
+  .anniversary-surprise {
+    width: calc(100% - 30px);
+    max-width: 430px;
+    max-height: 85svh;
+    padding: 30px 22px;
+    border-radius: 25px;
+  }
+
+  .anniversary-surprise h2 {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  .anniversary-surprise p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .anniversary-heart {
+    font-size: 55px;
+  }
+
+  .anniversary-sparkles i {
+    font-size: 14px;
+  }
+
+
+  /* =================================================
+     SECRET UNIVERSE
+  ================================================= */
+
+  #secret {
+    width: calc(100% - 24px);
+    max-width: 430px;
+    height: 85svh;
+    max-height: 700px;
+    padding: 0;
+    border-radius: 28px;
+    overflow: hidden;
+  }
+
+  #secretIntroText,
+  #secretText,
+  #secretExtra,
+  #secretEnding {
+    width: calc(100% - 40px);
+    max-width: 340px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #secretIntroText {
+    top: 20%;
+  }
+
+  #secretText {
+    top: 63%;
+  }
+
+  #secretExtra {
+    top: 68%;
+    font-size: 15px;
+  }
+
+  #secretEnding {
+    top: 72%;
+    font-size: 20px;
+  }
+
+  #secretHeart {
+    transform: scale(.8);
+  }
+
+  .close-secret {
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+  }
+
+
+  /* ---------- DIALOG ---------- */
+
+  dialog {
+    max-width: calc(100vw - 24px);
+  }
+
+}
