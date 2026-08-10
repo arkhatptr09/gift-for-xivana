@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0b0b0b">
   <title>Our Little Universe</title>
+  <link rel="icon" type="image/png" href="Gemini_Generated_Image_6w9c066w9c066w9c-removebg-preview.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -23,7 +25,7 @@
   </div>
 
   <header class="nav">
-    <a class="brand" href="#home">Dear, <i>Xivana</i></a>
+    <a class="brand" href="#home">Xivana, <i>you</i></a>
     <nav>
       <a href="#story">Our story</a>
       <a href="#memories">Memories</a>
@@ -36,7 +38,7 @@
     <section class="hero" id="home">
       <div class="eyebrow">On this little website, I present this</div>
       <h1>For the most beautiful person <em>in my universe.</em></h1>
-      <p>There are a million ways to say "I love you." and this is one of them. a small website, but it carries a heart full of love, memories, and everything I could never fit into a single sentence.</p>
+      <p>There are a million ways to say "I love you." and this is one of them. a small website, but it carries a heart full of love, memories, and everything I could never fit into a single sentence..</p>
       <button class="button magnetic" data-scroll="#story">Begin our journey <b>↓</b></button>
       <div class="hero-orbit">
         <div class="moon"></div>
@@ -47,7 +49,7 @@
           <span class="tail"></span>
           <span class="rose">✦</span>
         </div>
-        <small>click kucingnya 7 kali </small>
+        <small>click kucingnya 7 kali</small>
       </div>
     </section>
 
@@ -66,13 +68,11 @@
           <span class="face"><i></i><i></i><b></b></span>
         </div>
         <h3>The first spark</h3>
-        <p>awal kita kenal tuh lucu ya. aku bahkan udah nggak inget persis gimana awalnya, tapi yang paling aku inget tuh waktu kamu curhat soal mantan kamu wkwk.
+        <p>awal kita kenal tuh lucu ya. aku bahkan udah nggak inget persis gimana awalnya, tapi yang paling aku inget tuh waktu kamu curhat soal mantan kamu wkwk.nggak nyangka aja, dari obrolan yang awalnya sesimpel itu, sekarang kita bisa sejauh ini. dulu cuma saling cerita, sekarang malah jadi tempat pulang satu sama lain.
 
-nggak nyangka aja, dari obrolan yang awalnya sesimpel itu, sekarang kita bisa sejauh ini. dulu cuma saling cerita, sekarang malah jadi tempat pulang satu sama lain.
-
-kadang kalau diinget lagi rasanya lucu. hal-hal yang dulu kelihatan biasa aja, ternyata malah jadi awal dari cerita kita.
-</p>
+kadang kalau diinget lagi rasanya lucu. hal-hal yang dulu kelihatan biasa aja, ternyata malah jadi awal dari cerita kita.</p>
       </article>
+
       <article class="story-card tone-2">
         <span></span>
         <div class="story-illustration">✦</div>
@@ -81,9 +81,9 @@ kadang kalau diinget lagi rasanya lucu. hal-hal yang dulu kelihatan biasa aja, t
 
 ya walaupun sempet kepikiran, tapi aku ngerasa nggak ada gunanya juga maksa. jadi aku cuma nikmatin aja jadi temen kamu, sambil mikir yaudah, mungkin emang bukan waktunya.
 
-eh, ternyata hidup punya jalan ceritanya sendiri ya. sekarang malah kita yang jalanin cerita ini bareng.
-</p>
+eh, ternyata hidup punya jalan ceritanya sendiri ya. sekarang malah kita yang jalanin cerita ini bareng.</p>
       </article>
+
       <article class="story-card tone-3">
         <span></span>
         <div class="cat cat--sleep">
@@ -100,8 +100,7 @@ setiap kali ada akun yang kena, pasti nggak lama kemudian kamu muncul lagi ngech
 
 
 
-dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget lagi, ternyata momen-momen kecil kayak gitu yang bikin cerita kita pelan-pelan bertambah. hal-hal yang kelihatannya sepele, ternyata sekarang malah jadi kenangan yang bikin senyum sendiri setiap kali keinget.
-</p>
+dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget lagi, ternyata momen-momen kecil kayak gitu yang bikin cerita kita pelan-pelan bertambah. hal-hal yang kelihatannya sepele, ternyata sekarang malah jadi kenangan yang bikin senyum sendiri setiap kali keinget.</p>
       </article>
     </section>
 
@@ -112,16 +111,28 @@ dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget la
       <span>Deowebz</span>
     </section>
 
-    <section class="chapters section">
+    <section class="music section" id="music">
       <div>
-        <p class="section-kicker">And then there was more</p>
-        <h2>A collection of <em>little forever.</em></h2>
+        <p class="section-kicker">For our soundtrack</p>
+        <h2>Press play. Let the room <em>turn slowly.</em></h2>
+        <p>Replace the sample tracks in <code>assets/music/</code> with your own songs.</p>
       </div>
-      <ol>
-        <li><b>08</b> STORY_TEXT_08</li>
-        <li><b>09</b> STORY_TEXT_09</li>
-        <li><b>10</b> STORY_TEXT_10</li>
-      </ol>
+      <div class="turntable">
+        <div class="record" id="record"><span></span></div>
+        <i class="needle"></i>
+        <button id="musicPlay" aria-label="Play playlist">▶</button>
+        <div class="track">
+          <b id="trackTitle">Our first slow dance</b>
+         <input
+  id="progress"
+  type="range"
+  min="0"
+  value="0"
+  step="0.1"
+  aria-label="Track progress"
+>
+        </div>
+      </div>
     </section>
 
     <section class="game section" id="game">
@@ -151,11 +162,18 @@ dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget la
         </button>
         <article class="letter-paper" id="letterPaper">
           <p class="letter-date">Always, today</p>
-          <h3>LETTER_TITLE</h3>
-          <p>LETTER_TEXT</p>
-          <p>LETTER_TEXT_02</p>
-          <p>LETTER_TEXT_03</p>
-          <p class="signature">With all my heart, <br>yours.</p>
+          <h3>To my love</h3>
+          <p>Xivaku sayang, aku mungkin nggak selalu pandai menjelaskan seberapa besar rasa sayangku ke kamu, tapi satu hal yang aku tahu pasti, aku benar-benar bersyukur karena semesta mempertemukan aku sama kamu.🤍 
+
+kamu bukan cuma seseorang yang aku cintai, tapi juga seseorang yang berhasil membuat hari-hariku terasa lebih berarti. ada kamu di hidup aku tuh rasanya seperti punya tempat untuk pulang, tempat untuk cerita, tempat untuk merasa tenang, bahkan di saat semuanya terasa berat.
+
+aku nggak janji hubungan kita akan selalu sempurna, karena pasti akan ada hari di mana kita capek, salah paham, atau berbeda pendapat. tapi aku janji, selama kamu masih mau berjalan sama aku, aku akan selalu memilih untuk memperbaiki, bukan pergi. aku akan tetap mencoba, bahkan ketika jalannya nggak selalu mudah.
+
+i love you, more than words could ever explain. dan kalau suatu hari kamu bertanya seberapa besar cintaku ke kamu, mungkin jawabannya sederhana: sebesar keinginanku untuk tetap melihat kamu bahagia, bahkan dalam hal-hal kecil sekalipun.
+
+jadi, please stay with me. bukan karena aku nggak bisa tanpa kamu, tapi karena hidup terasa jauh lebih indah ketika aku menjalaninya bersama kamu.🤍  
+</p>
+          <p class="signature">With all my heart, <br>Deo.</p>
         </article>
       </div>
     </section>
@@ -163,27 +181,35 @@ dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget la
     <section class="memories section" id="memories">
       <p class="section-kicker">Chapter III — the proof</p>
       <h2>The moments I want to <em>keep reliving.</em></h2>
-      <div class="photo hero-photo">PHOTO_01 <span>the one that started it all</span></div>
-      <div class="polaroids" id="polaroids"></div>
-    </section>
+      <div class="photo hero-photo">
+  <video
+    src="assets/music/our-memory.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+  ></video>
 
-    <section class="book-section section">
-      <p class="section-kicker">Our love book</p>
-      <h2>Twenty pages, and I’d still <em>keep writing.</em></h2>
-      <div class="book" id="book">
-        <button class="book-arrow prev" aria-label="Previous page">←</button>
-        <div class="book-page" id="bookPage">
-          <span>01 / 20</span>
-          <h3>PAGE_01_TITLE</h3>
-          <p>PAGE_01_TEXT</p>
-        </div>
-        <button class="book-arrow next" aria-label="Next page">→</button>
+  <span>the one that started it all</span>
+</div>
+
+<div class="polaroids" id="polaroids"></div>
+
+    <section class="starlight-section section" id="starlight">
+      <div class="starlight-copy">
+        <p class="section-kicker">A little constellation</p>
+        <h2>In every lifetime, <em>I’d find you.</em></h2>
+        <p>Tap the glowing heart and make a wish for us.</p>
+        <button class="wish-button" id="wishButton" aria-label="Make a wish">♥</button>
+        <p class="wish-note" id="wishNote">A wish made with love always knows the way home.</p>
+      </div>
+      <div class="constellation" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><span>♥</span>
       </div>
     </section>
 
     <section class="counter section">
       <p class="section-kicker">Since the beginning</p>
-      <h2>A very good reason to <em>celebrate time.</em></h2>
       <div class="counter-grid" id="counter">
         <div><b>00</b><span>Years</span></div>
         <div><b>00</b><span>Months</span></div>
@@ -192,29 +218,19 @@ dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget la
         <div><b>00</b><span>Minutes</span></div>
         <div><b>00</b><span>Seconds</span></div>
       </div>
-      <label class="date-control">Our start date <input type="date" id="startDate" value="2024-01-01"></label>
+      <label class="date-control">Our start date <input type="date" id="startDate" value="2026-07-19"></label>
+      <p class="anniversary-note" id="anniversaryNote">Check this website again on 19 August, okay?</p>
+      <p class="anniversary-countdown" id="anniversaryCountdown" aria-live="polite"></p>
     </section>
 
-    <section class="timeline section">
-      <p class="section-kicker">The golden thread</p>
-      <h2>Everywhere I’d choose <em>you again.</em></h2>
-      <div class="timeline-list" id="timeline"></div>
-    </section>
-
-    <section class="music section" id="music">
-      <div>
-        <p class="section-kicker">For our soundtrack</p>
-        <h2>Press play. Let the room <em>turn slowly.</em></h2>
-        <p>Replace the sample tracks in <code>assets/music/</code> with your own songs.</p>
+    <section class="promise-section section" id="promise">
+      <div class="promise-orbit" aria-hidden="true">
+        <span>✦</span><span>♥</span><span>✦</span><span>♥</span><b>∞</b>
       </div>
-      <div class="turntable">
-        <div class="record" id="record"><span></span></div>
-        <i class="needle"></i>
-        <button id="musicPlay" aria-label="Play playlist">▶</button>
-        <div class="track">
-          <b id="trackTitle">Our first slow dance</b>
-          <input id="progress" type="range" value="24" aria-label="Track progress">
-        </div>
+      <div>
+        <p class="section-kicker">A promise in motion</p>
+        <h2>Still choosing <em>you, every day.</em></h2>
+        <p class="promise-text">When the circle turns, it always comes back to us.</p>
       </div>
     </section>
 
@@ -235,11 +251,160 @@ dulu mungkin aku nganggep itu hal yang biasa aja. tapi sekarang kalau diinget la
     </section>
   </main>
 
-  <dialog id="secret">
-    <button class="close-secret" aria-label="Close">×</button>
-    <span>✦</span>
-    <h2>You found our secret.</h2>
-    <p>SECRET_MESSAGE_PLACEHOLDER</p>
+ <dialog id="secret" class="secret-universe">
+
+  <!-- CLOSE -->
+  <button class="close-secret" aria-label="Close">
+    ×
+  </button>
+
+  <!-- BACKGROUND -->
+  <canvas id="secretStars"></canvas>
+  <canvas id="secretParticles"></canvas>
+
+  <div class="secret-nebula"></div>
+
+  <!-- SHOOTING STARS -->
+  <div class="secret-shooting-star star-one"></div>
+  <div class="secret-shooting-star star-two"></div>
+  <div class="secret-shooting-star star-three"></div>
+
+  <!-- ORBIT -->
+  <div class="secret-vortex"></div>
+
+  <div class="secret-orbit orbit-one">
+    <i></i>
+  </div>
+
+  <div class="secret-orbit orbit-two">
+    <i></i>
+  </div>
+
+  <div class="secret-orbit orbit-three">
+    <i></i>
+  </div>
+
+  <!-- CENTER HEART -->
+  <div class="secret-center">
+
+    <div class="secret-core"></div>
+
+    <div
+      class="secret-heart"
+      id="secretHeart">
+      ♥
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       INTRO TEXT
+  ========================== -->
+
+  <div
+    class="secret-scene secret-intro"
+    id="secretIntro">
+
+    <p class="secret-kicker">
+      a hidden corner of our universe
+    </p>
+
+    <h2
+      id="secretIntroText"
+      class="secret-text">
+    </h2>
+
+  </div>
+
+
+  <!-- =========================
+       MESSAGE
+  ========================== -->
+
+  <div
+    class="secret-scene secret-message"
+    id="secretMessage">
+
+    <p class="secret-kicker">
+      you found the secret
+    </p>
+
+    <h2
+      id="secretText"
+      class="secret-text">
+    </h2>
+
+    <div
+      id="secretExtra"
+      class="secret-extra">
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       FINAL
+  ========================== -->
+
+  <div
+    class="secret-scene secret-ending"
+    id="secretEnding">
+
+    <p class="secret-kicker">
+      our little universe
+    </p>
+
+    <h2 class="secret-final-title">
+
+      No matter how many tomorrows come,
+
+      <em>
+        I'll always choose you.
+      </em>
+
+    </h2>
+
+    <p class="secret-signature">
+      — deo, always choosing you. 🤍
+    </p>
+
+    <button
+      class="secret-return"
+      id="secretReturn">
+
+      return to our world ♡
+
+    </button>
+
+  </div>
+
+</dialog>
+
+  <dialog id="bouquetReward" class="bouquet-reward">
+    <button class="close-reward" aria-label="Close reward">×</button>
+    <img src="download__12_-removebg-preview.png" alt="A bouquet of pink and white flowers">
+    <p class="section-kicker">A gift for you</p>
+    <h2>You made a <em>beautiful bouquet.</em></h2>
+    <p>The cat saved every flower just for you.</p>
+    <button class="button close-reward">Keep it close</button>
+  </dialog>
+
+  <dialog id="anniversarySurprise" class="anniversary-surprise">
+    <div id="surpriseCountdown">
+      <p class="section-kicker">A little surprise is almost here</p>
+      <b id="surpriseSeconds">10</b><span>seconds</span>
+    </div>
+    <div id="surpriseMessage" hidden>
+      <div class="anniversary-sparkles" aria-hidden="true">
+        <i>♥</i><i>✦</i><i>♥</i><i>✦</i><i>♥</i><i>✦</i>
+      </div>
+      <span class="anniversary-heart">♥</span>
+      <p class="section-kicker">Happy monthly anniversary</p>
+      <h2>Happy mensive, <em>sayaang.</em></h2>
+      <p>Ga kerasa kita udah sebulan aja nih.. Aku seneng banget sama setiap momen-momen yang aku lalui bareng kamu selama sebulan ini.. Semoga kita selalu bareng di setiap bulan-bulan berikutnya yaa. Aku sayang banget sama kamu, xivakuu.</p>
+      <button class="button close-anniversary">Keep this moment</button>
+    </div>
   </dialog>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
